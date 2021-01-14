@@ -1,0 +1,19 @@
+.middle-nav {
+  background-color: $pink-sass;
+  @include d-flex-center;
+  color: white;
+  margin-top: 5rem;
+  padding: 2rem 0;
+
+  ul {
+    @include d-flex-center;
+
+    li {
+      margin: 0 2rem;
+    }
+  }
+
+  a {
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,24 @@
+@mixin d-flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin d-flex-wrap($method) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: $method;
+}
+
+@mixin colorear($mycolor) {
+  font-size: 5rem;
+  text-align: center;
+  color: $mycolor;
+}
